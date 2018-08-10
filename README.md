@@ -62,7 +62,6 @@ Third Line 222
     **end line 1 with indent 4
 ==== End Block 1 ====
 """
-my_template = """  First Line with indent 2"""
 t = Template(my_template)
 my_arg = {}
 t.render(arg = my_arg)
